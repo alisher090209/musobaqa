@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:ital,wght@0,200;1,200&family=Raleway:ital@0;1&family=Ysabeau:ital,wght@0,1;0,100;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+:root {
+  --contoro: "Castoro Titling", cursive;
+  --monster: "Montserrat", sans-serif;
+  --real: "Raleway", sans-serif;
+  --ysa: "Ysabeau", sans-serif;
+  --karla: 'Karla', sans-serif;
+  --lato: 'Lato', sans-serif;
+  --monster: 'Montserrat', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+  --sanspro: 'Source Sans Pro', sans-serif;
+  --ubuntu: 'Ubuntu', sans-serif;
+  --mono: 'Ubuntu Mono', monospace;
+}
+.header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/assets/images/banner-bg.png);
+    height: auto;
+    background-size: cover;
+    padding: 10px;
+}
+.navbar{
+    color: #111111;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 0px;
+}
+.navbar_nav a{
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.2rem;
+    font-family: var(--real);
+    font-weight: 550;
+    transition: all 0.6s linear;
+}
+.navbar_nav a:hover{
+    color: #FFB607;
+}
+.call .fa-bars{
+    font-size: 2.5rem;
+    display: none;
+    color: aqua;
+}
+.call h2{
+    color: #FFB607;
+}
+.serch{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    padding: 4.8rem 0;
+    text-align: center;
+}
+.banner .title h2{
+    color: #111111;
+    margin-bottom: 1.7rem;
+    font-family: var(--ubuntu);
+    font-size: 5.5rem;
+    font-weight: 350;
+}
+.banner .title p{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 18.9rem;
+    font-family: var(--sanspro);
+    color: dimgrey;
+}
+.btn button{
+ padding: 0.6rem 3rem;
+ background-color: #FFB607;
+ color: white;
+ font-size: 1.2rem;
+ border-radius: 12px;
+ border: 0;
+ outline: 0;
+ transition: all 0.5s linear;
+}
+.btn button:hover{
+    background-color: black;
+}
+.services{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-family: var(--mono);
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+.title p{
+    font-family: var(--roboto);
+    font-weight: 100;
+    color: rgb(169, 176, 183);
+    margin-bottom: 4rem;
+}
+.services__content{
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:3rem;
+    align-items: center;
+    text-align: center;
+    
+}
+.services__item{
+    width: 100%;
+    padding: 1.8rem 0;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    transition: all 0.2s linear;
+}
+.services__item:hover{
+    box-shadow: 0 0 20px gray;
+}
+.services__item img{
+    margin-left: 33%;
+    width: 35%;
+    height: 35%;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.services__item img:hover{
+    transform: translateY(-10px);
+}
+.services__item h2{
+    font-family: var(--sanspro);
+    font-weight: 100;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.services__item p{
+    width: 100%;
+    color:dimgrey;
+    margin-bottom: 1rem;
+}
+/* .services :end */
+
+/* ABOUT */
+.about{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #FFB607;
+}
+.about__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.about__item h2{
+    margin-bottom: 5rem;
+    color: white;
+    font-family: var(--ubuntu);
+    font-size: 2.5rem;
+}
+.about__item p{
+    margin-bottom: 8rem;
+    width:85%;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    color: rgb(242, 241, 241);
+}
+.about__item button{
+    background-color: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    transition: all .4s linear;
+    font-size: 1rem;
+}
+.about__item button:hover{
+    background-color: white;
+    color: #FFB607;
+}
+
+/* FURNITURES */
+.furnitures{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: whitesmoke;
+}
+.furnitures__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.furnitures__item h3{
+    color: #FFB607;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--mono);
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.furnitures__item p {
+    color: dimgray;
+    font-family: var(--lato);
+}
+/* .WHO  */
+.who{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-image: url(/assets/images/bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: var(--roboto);
+}
+.who__title h2{
+    color: white;
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-bottom: 0.3rem;
+}
+.who__title b{
+    color: white;
+    font-size: 1.1rem;
+}
+.who__title p{
+    color: whitesmoke;
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.who__title button{
+    background-color: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    transition: all .4s ease;
+    font-size: 1rem;
+}
+.who__title button:hover{
+    background-color: white;
+    color: #FFB607;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+/* .project */
+.project{
+    width: 100%;
+    padding: 4.8rem 0;
+    position: relative;
+}
+
+.project__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.project__item{
+    cursor: pointer;
+}
+.project__img{
+    position: relative;
+}
+.add__hover{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear; 
+     background-color: rgb(255,182,7,.6);
+}
+
+.add__hover h2{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.project__img:hover .add__hover{
+    opacity: 1;
+}
+/* .clients */
+
+.clients{
+    width: 100%;
+    padding: 4.8rem 0;
+}
+/* contact */
+.contact{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-image: url(/assets/images/contact-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact__title{
+    color: #fff;
+    font-family: var(--mono);
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+.contact__content{
+    display:  grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.contact__item .form input{
+    width: 100%;
+    height: 8vh;
+    margin: 0.5rem;
+    color: dimgrey;
+    border: 0;
+    outline: 0;
+    text-indent: 14px;
+    font-size: 1.1rem;
+}
+.contact__item .form textarea{
+    width: 100%;
+    height: 18vh;
+    margin: 0.5rem;
+    color: dimgrey;
+    border: 0;
+    outline: 0;
+    text-indent: 14px;
+    font-size: 1.1rem;
+}
+.contact__item .form button{
+    padding: 0.7rem 4rem;
+    border: 5px solid white;
+    background-color: rgb(255,182,7,.6);
+    color: dimgrey;
+    font-family: var(--ubuntu);
+    font-size: 1.1rem;
+}
+.contact__item .form button:hover{
+    background-color: #fff;
+    color: dimgrey;
+}
+.footer{
+    width: 100%;
+    padding: 4.8rem 0;
+    background-color: #313131;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+}
+.footer__item h1{
+    color: #fff;
+    font-family: var(--ubuntu);
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+.footer__item p{
+    width: 70%;
+    color: dimgrey;
+    font-family: var(--ubuntu);
+}
+.footer .form {
+    display: flex;
+    justify-content: end;
+    margin-top: 5rem;
+}
+.footer .form input{
+    width: 30%;
+    height: 6vh;
+    background-color: #313131;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    border-bottom: 3px solid #fff;
+}
+.footer .form button{
+    width: 10%;
+    height: 6vh;
+    background-color: #313131;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1.1rem;
+    border-bottom: 3px solid #fff;
+    transition: all .4s linear;
+}
+.footer .form button:hover{
+    background-color: #fff;
+    color:#313131;
+}
+.copyright{
+    width: 100%;
+    padding: 2.8rem 0;
+    text-align: center;
+}
+.copyright .socil__media i{
+    font-size: 2em;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1rem;
+}
+
+
+.show{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
