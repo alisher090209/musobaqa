@@ -11,8 +11,55 @@
         height: 15%;
         cursor: pointer;
     }
+    .navbar_nav{
+        display: none;
+    }
+
+    .add__navigation{
+        width: 30%;
+        padding: 1.2rem 0;
+        position: fixed        ;
+        background-color: rgba(0, 0, 0, 0.7);
+        right: 2%;
+        top: 10%;
+        border-radius: 10px;
+        z-index: 1111;
+    }
+    .add__navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .add__navbar a{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 900;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .add__navbar .close__bars{
+        font-size: 4rem;
+        cursor: pointer;
+        position: absolute;
+        top: -20px;
+        right: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-.navbar_nav{
+/* .navbar_nav{
     position: fixed;
     z-index: 1111;
     top: 13.5vh;
@@ -34,7 +81,7 @@
 .navbar_nav a:hover{
     color:#FFB607 ;
 
-}
+} */
 .call h2{
     display: none;
 }
@@ -78,5 +125,25 @@
     }
     .who__title p{
         width: 100%;
+    }
+}
+@media only screen and (max-width:368px){
+
+    .banner .title h2{
+        font-size: 3.3rem;
+    }
+    .title h2{
+        font-size: 2.5rem;
+    }
+    .who__title p{
+        width: 100%;
+        text-align: left;
+    }
+    .add__navbar .close__bars{
+        font-size: 4rem;
+        cursor: pointer;
+        position: absolute;
+        top: -30px;
+        right: 5px;
     }
 }

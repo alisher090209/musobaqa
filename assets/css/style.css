@@ -39,6 +39,9 @@ img {
   --ubuntu: 'Ubuntu', sans-serif;
   --mono: 'Ubuntu Mono', monospace;
 }
+.add__navigation{
+    display: none;
+}
 .header{
     width: 100%;
     height: 80vh;
