@@ -1,6 +1,6 @@
 @media only screen and (max-width:768px) {
 
-    .call .fa-bars{
+    /* .call .fa-bars{
         margin-top: 1rem;
         display: block;
         color: black;
@@ -44,11 +44,56 @@
         position: absolute;
         top: -20px;
         right: 5px;
+    } */
+
+
+
+    .navigation{
+        width: 100%;
+        height: 10vh;
+        overflow: hidden;
+        padding-bottom: 4rem;
+        transition: all .5s linear;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__logo{
+        margin-bottom: 1.2rem;
+    }
+    .navbar_nav a{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+
+    }
+    .navigation .navbar .navbar__nav {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .call .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        font-size: 1.5rem;
+        color: black;
     }
 
-
-
-
+    .navigation__add {
+        height: 60vh;
+        transition: all 0.5s linear;
+      }
+      .navigation__remove {
+        height: 10vh;
+        transition: all 0.5s linear;
+      }
 
 
 
@@ -82,12 +127,6 @@
     color:#FFB607 ;
 
 } */
-.call h2{
-    display: none;
-}
-.serch{
-    display: none;
-}
 
 .banner .title h2{
     margin-bottom: 1rem;

@@ -50,6 +50,12 @@ img {
     background-size: cover;
     padding: 10px;
 }
+.navigation{
+    width: 100%;
+    height: 10vh;
+    padding: 10px ;
+    background-image: url(/assets/images/banner-bg.png);
+}
 .navbar{
     color: #111111;
     font-size: 15px;
@@ -60,6 +66,7 @@ img {
     align-items: center;
     padding: 0px;
 }
+
 .navbar_nav a{
     color: black;
     margin-left: 25px;
