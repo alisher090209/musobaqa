@@ -202,4 +202,13 @@
         top: -30px;
         right: 5px;
     }
+    .navigation__add {
+        height: 50vh;
+        transition: all 0.5s linear;
+      }
+      .navigation__remove {
+        height: 10vh;
+        transition: all 0.5s linear;
+      }
+
 }
