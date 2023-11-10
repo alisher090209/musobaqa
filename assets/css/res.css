@@ -45,7 +45,7 @@
         top: -20px;
         right: 5px;
     } */
-
+ 
 
 
     .navigation{
@@ -181,6 +181,14 @@
         position: absolute;
         top: -30px;
         right: 5px;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/assets/images/banner-bg.png);
+        height: auto;
+        background-size: cover;
+        padding: 10px;
     }
 }
 @media only screen and (max-width:368px){
